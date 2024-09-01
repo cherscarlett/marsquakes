@@ -1,0 +1,11 @@
+name: mars-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - cartopy
+  - pip
+  - pip:
+    - matplotlib
+    - obspy
+    - datetime
